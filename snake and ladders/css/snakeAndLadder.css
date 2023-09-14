@@ -1,0 +1,49 @@
+
+.btn-style{
+    border-width: 1px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.dice-size{
+    height: 50px;
+    width:50px;
+    border-radius: 5px;
+
+}
+.btn-style:hover{
+    background-color: rgb(199, 197, 194);
+}
+.board-size{
+    height: 50px;
+    width:50px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding-top: 8px;
+    color: transparent;
+}
+.board-background{
+    background-image: url('https://thumbs.dreamstime.com/z/snakes-ladders-board-game-boardgame-cartoon-261240493.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 527px;
+}
+.pown1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44q7RZMaZEewK3vjX9yGvvfDYKPuIoUgjg0li8qSBOrbmMVxOesM3Xl9zDXOo-2Wx8qc&usqp=CAU');
+    background-size: 48px 48px;
+}
+.pown2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ELcZ51kDx-yT3LdIc_9Fw87p1jVU1DT4pA&usqp=CAU');
+    background-size: 48px 48px;
+}
+
+/* .flex{
+    display: flex;
+    align-items: center;
+} */
+.size-of-cont{
+    text-align: center;
+    width: 250px;
+}
