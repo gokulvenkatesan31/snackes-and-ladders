@@ -1,4 +1,6 @@
-
+.body-background{
+    background-color: rgb(230, 250, 51);
+}
 .btn-style{
     border-width: 1px;
     height: 80px;
@@ -12,7 +14,7 @@
 
 }
 .btn-style:hover{
-    background-color: rgb(199, 197, 194);
+    background-color: rgb(10, 10, 10);
 }
 .board-size{
     height: 50px;
@@ -20,7 +22,8 @@
     background-color: transparent;
     border-width: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(173, 4, 173);
+    /* border-color: rgb(8, 8, 8); */
     text-align: center;
     padding-top: 8px;
     color: transparent;
@@ -44,6 +47,6 @@
     align-items: center;
 } */
 .size-of-cont{
-    text-align: center;
-    width: 250px;
+    text-align: start;
+    width: 350px;
 }

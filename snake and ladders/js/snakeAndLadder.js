@@ -204,6 +204,20 @@ dice2Element.addEventListener("click",()=>{
 
 let quitElement=document.querySelector(".js-quit");
 quitElement.addEventListener("click",()=>{
+    document.querySelector(".js-snakeorladder").innerHTML="";
+    document.querySelectorAll(".js-board")
+    .forEach((positionElement,index)=>{
+        if(Number(positionElement.innerHTML)===temp1){
+            positionElement.classList.remove("pown1")
+            console.log(temp1)
+        }
+    });
+    document.querySelectorAll(".js-board")
+            .forEach((positionElement,index)=>{
+                if(Number(positionElement.innerHTML)===temp2){
+                    positionElement.classList.remove("pown2")
+                }
+            });
     p1=0;
     p2=0;
     displayTurn1="Your turn"
